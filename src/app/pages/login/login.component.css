@@ -1,0 +1,196 @@
+ .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 32vh;
+  width: 425px;
+  border: 2px solid rgba(56, 51, 51, 0.2);
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  margin-left: 0px;
+}
+.front{
+  width: 130px;
+  height: 130px;
+}
+.App-back {
+  height: 66vh;
+  width: 428px;
+  border: 2px solid rgba(56, 51, 51, 0.2);
+  border-radius: 0px 0px 20px 20px;
+}
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    background-color: rgb(214, 201, 201);
+    color: #A4A4A4;
+  }
+  
+  .App-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 428px;
+    background: linear-gradient(90.3deg, #130c18 0.16%, #130f0f 101.62%);
+    padding: 0px 0px;
+    margin: 10px 0;
+    border: 2px solid rgba(56, 51, 51, 0.2);
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .wrapper{
+    width: 428px;
+    min-height: 66.5vh;
+    background: transparent;
+    border: 2px solid rgba(56, 51, 51, 0.2);
+    backdrop-filter: blur(69px);
+    border-radius: 20px 20px 20px 20px;
+    margin-top: -67vh;
+  }
+  .wrapper h1{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    margin: 5px 0 0 0;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+  .wrapper p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;  
+    margin: 0px;
+    color: #A4A4A4;
+    font-family: 'Poppins', sans-serif;
+  }
+  .input-box {
+    width: 100%;
+    margin: 15px 0;
+    position: relative;
+  }
+  
+  .input-box input {
+    width: 334px; 
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 10px;
+    font-family: Poppins;
+  }
+  
+  .input-box input::placeholder {
+      color: #A4A4A4;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 10px; /* Adjust based on your needs */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  
+  .input-box p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    color: #A4A4A4;
+    padding: 5px 0;
+    text-align: left;
+    margin-left: 45px;
+  }
+  .wrapper .remember-forgot{
+    float: right;
+    font-size: 14.5px;
+    margin: -10px 48px 15px;
+  }
+  .remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+  }
+  .remember-forgot a:hover{
+    text-decoration: underline;
+  }
+  .wrapper .btn{
+    background: linear-gradient(90.3deg, #9C3FE4 0.16%, #C65647 101.62%);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    width: 334px;
+    height: 40px;
+    left: 65px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+  }
+  .wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 10px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .register-link img{
+    height: 17px;
+  }
+  .register-link a{
+    width: 48.1px;
+    height: 34px;
+    top: 712px;
+    left: 115px;
+    border-radius: 8.85px;
+    border: 0.1px solid #725f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+  
+  }
+  .signup{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5px 0px;
+  }
+  .signup p{
+      margin: 0 10px;
+  }
+ 
+
+
+
+
+
+
